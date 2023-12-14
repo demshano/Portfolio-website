@@ -128,17 +128,29 @@ const Contact = () => {
   const [open, setOpen] = React.useState(false);
   const form = useRef();
 
+  const emailjsConfig = {
+    service_id: 'service_bjejxql',
+    template_id: 'template_gnlwknk',
+    user_id: '7rptrAhiGmBKVB_kO', // API Key
+    to_email: 'ahdm16059@gmail.com', // Your email address
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm(
+      emailjsConfig.service_id,
+      emailjsConfig.template_id,
+      form.current,
+      emailjsConfig.user_id
+    )
       .then((result) => {
         setOpen(true);
         form.current.reset();
-      }, (error) => {
+      })
+      .catch((error) => {
         console.log(error.text);
       });
-  }
-
+  };
 
 
   return (
