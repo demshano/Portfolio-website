@@ -267,15 +267,15 @@ export const education = [
     desc: "I completed my classes in grade 7 to 13 at D.S. Senanayaka National School, Ampara, where I studied General Certificate of Education (GCE) Ordinary Level, Advance Level",
     degree: "General Certificate of Education (GCE) Ordinary Level, Advance Level",
   },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
-  },
+  // {
+  //   id: 2,
+  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+  //   school: "Methodist School, Dankuni",
+  //   date: "Apr 2017 - Apr 2019",
+  //   grade: "92.3%",
+  //   desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
+  //   degree: "ICSC(X), Science with Computer",
+  // },
 ];
 
 export const projects = [
